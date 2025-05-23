@@ -6,3 +6,10 @@ Plugin WordPress que centraliza e disponibiliza os serviços de API da Triibo (G
 - Permite configurar tokens, usuários e chaves de acesso para ambientes de homologação e produção.
 - Compatível com WooCommerce e HPOS.
 - Não armazena credenciais no código-fonte, apenas via painel/admin.
+
+## triibo-assinatura
+
+Plugin WordPress para pagamentos recorrentes via WooCommerce, integrando o sistema de assinaturas da Triibo. Depende dos plugins Triibo API Services e WooCommerce Subscriptions para funcionar corretamente.
+- Permite gerenciar assinaturas e pagamentos recorrentes de forma automatizada.
+- Integração completa com o painel do WooCommerce.
+- Suporte a notificações administrativas e configuração de credenciais via painel.
