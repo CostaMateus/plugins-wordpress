@@ -6,6 +6,7 @@
 - triibo-assinatura
 - triibo-usermeta
 - triibo-payments
+- triibo-fastshop
 
 ---
 
@@ -42,3 +43,11 @@ Plugin WordPress para integração de pagamentos únicos com a plataforma Triibo
 - Suporte a múltiplos métodos de pagamento e gateways Triibo.
 - Integração transparente com WooCommerce.
 - Configuração de credenciais e parâmetros via painel administrativo.
+
+---
+
+## triibo-fastshop
+
+Plugin WordPress para integração entre WooCommerce e a plataforma Fast Shop, permitindo sincronização de pedidos, status e informações de clientes entre as duas plataformas.
+- Automatiza o envio e atualização de pedidos do WooCommerce para o Fast Shop.
+- Sincroniza status de entrega e informações relevantes de forma transparente.
