@@ -13,3 +13,10 @@ Plugin WordPress para pagamentos recorrentes via WooCommerce, integrando o siste
 - Permite gerenciar assinaturas e pagamentos recorrentes de forma automatizada.
 - Integração completa com o painel do WooCommerce.
 - Suporte a notificações administrativas e configuração de credenciais via painel.
+
+## triibo-usermeta
+
+Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API REST de usuários do WordPress e WooCommerce. Usado principalmente para integrações com sistemas externos (como o Node Triibo) durante o processo de checkout.
+- Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
+- Permite restringir o acesso a determinados e-mails autorizados.
+- Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
