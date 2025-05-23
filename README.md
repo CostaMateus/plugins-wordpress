@@ -20,3 +20,10 @@ Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API
 - Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
 - Permite restringir o acesso a determinados e-mails autorizados.
 - Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
+
+## triibo-payments
+
+Plugin WordPress para integração de pagamentos únicos com a plataforma Triibo, voltado para lojas WooCommerce. Permite processar cobranças avulsas, consultar status de transações e gerenciar pagamentos diretamente pelo painel do WordPress.
+- Suporte a múltiplos métodos de pagamento e gateways Triibo.
+- Integração transparente com WooCommerce.
+- Configuração de credenciais e parâmetros via painel administrativo.
