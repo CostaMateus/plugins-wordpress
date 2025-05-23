@@ -4,9 +4,9 @@
 
 - triibo-api-services
 - triibo-assinatura
-- triibo-usermeta
-- triibo-payments
 - triibo-fastshop
+- triibo-payments
+- triibo-usermeta
 
 ---
 
@@ -28,12 +28,11 @@ Plugin WordPress para pagamentos recorrentes via WooCommerce, integrando o siste
 
 ---
 
-## triibo-usermeta
+## triibo-fastshop
 
-Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API REST de usuários do WordPress e WooCommerce. Usado principalmente para integrações com sistemas externos (como o Node Triibo) durante o processo de checkout.
-- Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
-- Permite restringir o acesso a determinados e-mails autorizados.
-- Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
+Plugin WordPress para integração entre WooCommerce e a plataforma Fast Shop, permitindo sincronização de pedidos, status e informações de clientes entre as duas plataformas.
+- Automatiza o envio e atualização de pedidos do WooCommerce para o Fast Shop.
+- Sincroniza status de entrega e informações relevantes de forma transparente.
 
 ---
 
@@ -46,8 +45,9 @@ Plugin WordPress para integração de pagamentos únicos com a plataforma Triibo
 
 ---
 
-## triibo-fastshop
+## triibo-usermeta
 
-Plugin WordPress para integração entre WooCommerce e a plataforma Fast Shop, permitindo sincronização de pedidos, status e informações de clientes entre as duas plataformas.
-- Automatiza o envio e atualização de pedidos do WooCommerce para o Fast Shop.
-- Sincroniza status de entrega e informações relevantes de forma transparente.
+Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API REST de usuários do WordPress e WooCommerce. Usado principalmente para integrações com sistemas externos (como o Node Triibo) durante o processo de checkout.
+- Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
+- Permite restringir o acesso a determinados e-mails autorizados.
+- Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
