@@ -1,0 +1,205 @@
+
+.ta-title-optin { margin: 0 0 10px !important; font-weight: 650 !important; }
+
+.ta-error-border { border-color: #D45757 !important; }
+
+.ta-bg-transp { background-color: transparent !important; }
+
+.ta-d-none { display: none !important; }
+.ta-d-flex { display: flex !important; }
+
+.ta-text-left { text-align: left !important; }
+.ta-text-center { text-align: center !important; }
+.ta-text-danger { color: #D45757 !important; font-weight: bold; }
+.ta-text-dark { color: #343A40 !important; font-weight: bold; }
+
+.ta-text-muted   { color: #6C757D !important; }
+.ta-small        { font-size: 0.75em; }
+
+.ta-float-left { float: left !important; }
+.ta-float-right { float: right !important; }
+
+.ta-pt-8 { padding-top: 8px !important; }
+.ta-pt-20 { padding-top: 20px !important; }
+.ta-pb-0 { padding-bottom: 0 !important; }
+.ta-pb-20 { padding-bottom: 20px !important; }
+
+.ta-n-mt-20 { margin-top: -20px !important; }
+.ta-mt-20 { margin-top: 20px !important; }
+.ta-mb-0 { margin-bottom: 0 !important; }
+.ta-mb-5 { margin-bottom: 5px !important; }
+.ta-mb-12 { margin-bottom: 12px !important; }
+.ta-mb-15 { margin-bottom: 15px !important; }
+
+.ta-mx-auto { margin-left: auto !important; margin-right:  auto !important; }
+.ta-my-0 { margin-top: 0 !important; margin-bottom: 0 !important; }
+
+.ta-pointer { cursor: pointer; }
+
+.ta-bg-modal,
+.ta-bg-modal-login,
+.ta-bg-modal-ckt {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    overflow: auto;
+    z-index: 99999998;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#tal-modal-form-load {
+    z-index: 999999999 !important;
+}
+
+.ta-bg-modal,
+.ta-bg-modal-login {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.ta-bg-modal-ckt,
+.ta-bg-modal-white {
+    background-color: #EEE !important;
+}
+
+.ta-bg-modal-login-child,
+.ta-bg-modal-child {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #E8E8E8;
+    padding: 35px 30px;
+    border-radius: 5px;
+    background-color: #FEFEFE;
+}
+
+.ta-bg-modal-login-child h2,
+.ta-bg-modal-child h2 {
+    text-align: left;
+    margin: 0 0 25px 0 !important;
+}
+
+.ta-modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ta-modal-header span {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ta-button {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px !important;
+    border-radius: 3px;
+    height: 53px;
+    line-height: 53px;
+}
+
+.ta-set-spin {
+    display: flex!important;
+    justify-content: center;
+}
+
+.ta-spin-load {
+    width: 20px;
+    height: 20px;
+    margin: auto 5px;
+    border: 3px solid #F2F2F2;
+    border-top: 3px solid #AEAEAE;
+}
+
+.ta-spin-load-lg {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border: 5px solid #F2F2F2;
+    border-top: 5px solid #9C27B0;
+}
+
+.ta-spin-load, .ta-spin-load-lg {
+    border-radius: 50%;
+    animation: ta-spin 1s linear infinite;
+    -webkit-animation: ta-spin 1s linear infinite;
+}
+
+.ta-bg-modal-form-load-child {
+    top:           50%;
+    left:          50%;
+    margin:        0;
+    position:      fixed;
+    transform:     translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+    .ta-bg-modal-login-child,
+    .ta-bg-modal-child {
+        width: 60%;
+    }
+}
+@media (min-width: 768px) {
+    .ta-bg-modal-login-child,
+    .ta-bg-modal-child {
+        width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .ta-bg-modal-login-child,
+    .ta-bg-modal-child {
+        max-width: 430px;
+    }
+}
+
+@-webkit-keyframes ta-spin {
+    0%   { -webkit-transform: rotate( 0deg   ); }
+    100% { -webkit-transform: rotate( 360deg ); }
+}
+@keyframes ta-spin {
+    0%   { transform: rotate( 0deg   ); }
+    100% { transform: rotate( 360deg ); }
+}
+
+.ta-form-row__remember {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+.ta-form-row__remember .ta-form__label-for-checkbox {
+    display: inline-block;
+    line-height: 1;
+    margin-top: 0;
+}
+.ta-form__label-for-checkbox .ta-form__input-checkbox {
+    opacity: 0;
+    display: none;
+}
+.ta-form__label-for-checkbox span {
+    display: inline-block;
+    color: #000;
+    text-transform: inherit;
+    position: relative;
+    line-height: 1;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.ta-form__label-for-checkbox span:before {
+    content: "";
+    display: inline-block;
+    font: normal normal normal 14px/1 linearicons;
+    font-size: 18px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    color: #000;
+    transition: 0.5s;
+}
+.ta-form__label-for-checkbox .ta-form__input-checkbox:checked + span:before {
+    content: "\e999";
+}
