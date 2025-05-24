@@ -9,6 +9,7 @@
 - triibo-fastshop
 - triibo-payments
 - triibo-usermeta
+- woo-suprempay
 
 ---
 
@@ -70,3 +71,12 @@ Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API
 - Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
 - Permite restringir o acesso a determinados e-mails autorizados.
 - Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
+
+---
+
+## woo-suprempay
+
+Plugin WordPress que integra o método de pagamento SupremCash ao WooCommerce, permitindo que clientes realizem pagamentos utilizando a plataforma SupremPay diretamente na loja virtual.
+- Adiciona SupremPay como opção de pagamento no checkout do WooCommerce.
+- Estrutura compatível com versões recentes do WooCommerce e WordPress.
+- Ideal para lojas que desejam oferecer SupremCash como alternativa de pagamento.
