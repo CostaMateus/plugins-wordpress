@@ -4,6 +4,7 @@
 
 - triibo-api-services
 - triibo-assinatura
+- triibo-auth
 - triibo-events
 - triibo-fastshop
 - triibo-payments
@@ -26,6 +27,15 @@ Plugin WordPress para pagamentos recorrentes via WooCommerce, integrando o siste
 - Permite gerenciar assinaturas e pagamentos recorrentes de forma automatizada.
 - Integração completa com o painel do WooCommerce.
 - Suporte a notificações administrativas e configuração de credenciais via painel.
+
+---
+
+## triibo-auth
+
+Plugin WordPress para autenticação de usuários integrada ao ecossistema Triibo, com suporte a login via celular, validação de código SMS, criação e validação de contas marketplace. Permite customizar o fluxo de autenticação e registro, integrando com APIs externas e facilitando o onboarding de novos usuários. Depende dos plugins `triibo-api-services` e `WooCommerce` para funcionar corretamente.
+- Login e cadastro simplificados via e-mail ou celular.
+- Envio e validação de códigos por SMS.
+- Integração com outros plugins Triibo para unificação de contas e experiência do usuário.
 
 ---
 
