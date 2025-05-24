@@ -1,0 +1,6 @@
+/**
+ * @author Mateus Costa <mateus@costamateus.com.br>
+ * @since 1.0.0
+ */
+
+#toplevel_page_suprempay_gateway div img{padding-top:7px!important}.sp-d-none{display:none!important}.sp-set-spin{display:flex!important;justify-content:center}.sp-spin-load{width:8px;height:8px;margin:auto 5px;border:2px solid #a7aaad;border-top:2px solid #f6f7f7;border-radius:50%;-webkit-animation:1s linear infinite sp-spin;animation:1s linear infinite sp-spin}@-webkit-keyframes sp-spin{0%{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}@keyframes sp-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
