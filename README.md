@@ -10,6 +10,7 @@
 - triibo-payments
 - triibo-usermeta
 - woo-packet
+- woo-pagare-gateway
 - woo-suprempay
 
 ---
@@ -81,6 +82,16 @@ Plugin WordPress que integra o WooCommerce com os Correios para cálculo e gest�
 - Calcula automaticamente o valor do frete via Correios no WooCommerce.
 - Suporte a diferentes modalidades de envio nacionais.
 - Ideal para lojas virtuais que vendem e entregam produtos em todo o Brasil.
+
+---
+
+## woo-pagare-gateway
+
+Plugin WordPress que integra o método de pagamento Pagare ao WooCommerce, permitindo que clientes realizem pagamentos utilizando a plataforma Pagare diretamente na loja virtual.
+- Adiciona Pagare como opção de pagamento no checkout do WooCommerce.
+- Suporte a agendamento de tarefas (cron) para operações automáticas.
+- Estrutura compatível com versões recentes do WooCommerce e WordPress.
+- Ideal para lojas que desejam oferecer Pagare como alternativa de pagamento.
 
 ---
 
