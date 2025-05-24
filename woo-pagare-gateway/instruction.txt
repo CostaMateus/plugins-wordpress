@@ -1,0 +1,38 @@
+
+Metodo Boleto
+- compras maiores que R$ 100 - Erro inesperado / Time Out
+- compras menores que R$ 100 - Operação realizada com sucesso
+
+Metodo PIX
+- compras maiores que R$ 100 - Operação realizada com sucesso
+- compras menores que R$ 100 - Erro inesperado / Time Out
+
+Metodo CC
+- só aceita bandeira VISA (4XXX.XXXX.XXXX.XXXX)
+
+- cartões terminados em 0, 1 ou 4 - Operação realizada com sucesso
+- cartões terminados em 2         - Operação não Autorizada
+- cartões terminados em 3         - Cartão Expirado
+- cartões terminados em 5 ou 7    - Cartão Bloqueado/Cancelado
+- cartões terminados em 6 ou 8    - Não Autorizado	/ Problemas com o Cartão de Crédito
+- cartões terminados em 9         - Erro inesperado / Time Out
+
+- CVV para operação com sucesso   - 456
+- CVV para operação com erro      - qualquer outro diferente de 456
+
+- Validade do cartão              - qualquer data igual ou superior a 06/23
+
+=======================================================================================
+
+Para operação com sucesso usar:
+com CARTÃO:
+- número de cartão iniciado com 4
+- finalizado com 0, 1 ou 4
+- cvv 456
+- e validade 07/23
+
+com PIX:
+- carrinho com total maior que R$ 100
+
+com BOLETO:
+- carrinho com total menor que R$ 100
