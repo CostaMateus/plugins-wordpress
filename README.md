@@ -9,6 +9,7 @@
 - triibo-fastshop
 - triibo-payments
 - triibo-usermeta
+- woo-packet
 - woo-suprempay
 
 ---
@@ -71,6 +72,15 @@ Plugin WordPress que adiciona todos os meta dados do usuário à resposta da API
 - Expõe o meta_data do usuário autenticado na resposta da API, de forma segura e controlada.
 - Permite restringir o acesso a determinados e-mails autorizados.
 - Facilita integrações avançadas entre WordPress/WooCommerce e sistemas externos.
+
+---
+
+## woo-packet
+
+Plugin WordPress que integra o WooCommerce com os Correios para cálculo e gestão de envios no Brasil. Permite oferecer opções de frete nacionais diretamente no checkout da loja, utilizando as tabelas e serviços dos Correios.
+- Calcula automaticamente o valor do frete via Correios no WooCommerce.
+- Suporte a diferentes modalidades de envio nacionais.
+- Ideal para lojas virtuais que vendem e entregam produtos em todo o Brasil.
 
 ---
 
